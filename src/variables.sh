@@ -3,8 +3,10 @@
 message="Hey,This Tanjoro.. *"
 
 echo $message
-
 echo "$message"
+# result:
+#  I am a rock a variable.sh strings.sh numbers.sh
+#  I am a rock *
 
 echo "I am 'John' and I am '\"AWESOME\"."
 exit # exit program
