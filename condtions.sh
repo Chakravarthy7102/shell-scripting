@@ -23,3 +23,18 @@ else
 fi
 
 
+echo "Running the Script still..."
+
+echo -n "Enter a number again:"
+
+read num
+
+if [ $num -eq 10 ] || [ $num -lt 10 ]
+then 
+     echo "the number is in range of 10"
+elif [ $num -lt 50 ]
+then
+     echo "the number is less than 50"
+else
+     echo "I dont know what that number is.."
+fi
