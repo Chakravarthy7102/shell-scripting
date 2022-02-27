@@ -38,3 +38,12 @@ then
 else
      echo "I dont know what that number is.."
 fi
+
+
+if [ -e /home/chakravarthy/bash/ta.sh ]
+then
+echo "FILE FOUND:"
+cat task.sh
+else
+echo "file not found"
+fi
